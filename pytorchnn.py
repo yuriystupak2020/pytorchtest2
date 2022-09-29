@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 
-#get  data our
+#get  data our check
 train = datasets.MNIST(root='data', download=True, train=True, transform=ToTensor())
 datasets = DataLoader(train, 32)
 #1,28,28 - classes 0-9
